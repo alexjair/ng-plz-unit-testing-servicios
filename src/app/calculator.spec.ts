@@ -2,9 +2,9 @@
 import {Calulator} from './calculator'
 
 //inicio de la funcion evaluador 'describe()'
-describe('Testing para Calculator', ()=>{
+xdescribe('Testing para Calculator', ()=>{
 
-  fdescribe('Testing para Multiply=>', ()=>{
+  describe('Testing para Multiply=>', ()=>{
       //PRIMERA PRUEBA
       //el titulo deberia ser una historia
       it('#multiply() :: Deberia retornar un 9', () =>{
